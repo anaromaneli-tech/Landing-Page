@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Currículo profissional."
+    />
+    <title>Ana Romaneli | Currículo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-shell">
+    <header class="topbar">
+      <nav class="container nav-wrapper" aria-label="Navegação principal">
+        <a href="#inicio" class="brand" aria-label="Início">AR</a>
+        <ul class="main-nav" aria-label="Links principais">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-label="Alternar tema">
+          <span class="toggle-icon">☀️</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="inicio" class="container">
+      <section class="hero card" aria-labelledby="titulo-principal">
+        <article class="hero__content">
+          <p class="eyebrow">Desenvolvedora Front-end</p>
+          <h1 id="titulo-principal">Ana Clara Romaneli</h1>
+          <p class="hero__summary">
+            Estou me formando em sistemas de informção no Instituto Federal sul de Minas.
+          </p>
+          <ul class="hero__actions">
+            <li><a class="button primary" href="#contato">Contato</a></li>
+            <li><a class="button secondary" href="#projetos">Projetos</a></li>
+          </ul>
+        </article>
+
+        <aside class="profile-card" aria-label="Informações pessoais">
+          <p class="avatar">AR</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> anasouzaromaneli9@gmail.com</li>
+            <li><strong>Telefone:</strong> (35) 99909-2986</li>
+            <li><strong>Cidade:</strong> Machado -MG</li>
+            <li><strong>GitHub:</strong>anaromaneli-tech</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="content-grid">
+        <section class="main-column">
+          <section id="sobre" class="card section-block" aria-labelledby="sobre-titulo">
+            <header class="section-heading">
+              <span class="section-tag">Resumo</span>
+              <h2 id="sobre-titulo">Sobre mim</h2>
+            </header>
+            <p>
+              Sou desenvolvedora em formação gosto de transformar ideias em
+              experiências digitais intuitivas e visualmente impactantes.
+              Trabalho com HTML, CSS, JavaScript, C#,
+              sempre buscando otimizar usabilidade, acessibilidade e desempenho.
+            </p>
+          </section>
+
+          <section id="experiencia" class="card section-block" aria-labelledby="experiencia-titulo">
+            <header class="section-heading">
+              <span class="section-tag">Experiência</span>
+              <h2 id="experiencia-titulo">Experiência profissional</h2>
+            </header>
+
+            <article class="job-item">
+              <header class="job-header">
+                <h3>Estudante </h3>
+                <span class="date"></span>
+              </header>
+              <p>IFSULDEMNAS</p>
+              <ul>
+                <li>Não tive a oportunidade de trabalhar como dev ainda .</li>
+                
+              </ul>
+            </article>
+
+          </section>
+
+          <section id="formacao" class="card section-block" aria-labelledby="formacao-titulo">
+            <header class="section-heading">
+              <span class="section-tag">Formação</span>
+              <h2 id="formacao-titulo">Formação acadêmica</h2>
+            </header>
+
+            <article class="education-item">
+              <h3>Bacharel em Sistemas de Informação</h3>
+              <p>Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas - Campus Machado </p>
+              <span class="date">2026 - 2030</span>
+            </article>
+          </section>
+
+          <section id="projetos" class="card section-block" aria-labelledby="projetos-titulo">
+            <header class="section-heading">
+              <span class="section-tag">Projetos</span>
+              <h2 id="projetos-titulo">Projetos em destaque</h2>
+            </header>
+
+            <article class="project-item">
+              <h3>Projeto do Gape IA</h3>
+              <p>
+                Programa para reconhecer placa e contagem de veiculos que entram e sairam do campus 
+              </p>
+            </article>
+          </section>
+        </section>
+
+        <aside class="sidebar">
+          <section id="habilidades" class="card section-block" aria-labelledby="habilidades-titulo">
+            <header class="section-heading">
+              <span class="section-tag">Skills</span>
+              <h2 id="habilidades-titulo">Habilidades</h2>
+            </header>
+            <ul class="skills-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>C#</li>
+            </ul>
+          </section>
+
+          <section id="contato" class="card section-block" aria-labelledby="contato-titulo">
+            <header class="section-heading">
+              <span class="section-tag">Contato</span>
+              <h2 id="contato-titulo">Entre em contato</h2>
+            </header>
+            <p>Disponível para oportunidades de trabalho, freelas e colaborações.</p>
+            <a class="button primary full-width" href="mailto:anasouzaromaneli9@gmail.com">
+              Enviar e-mail
+            </a>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="container footer-inner">
+        <p>© <span id="year"></span> Ana Romaneli. Todos os direitos reservados.</p>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
